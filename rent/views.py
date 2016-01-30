@@ -8,5 +8,5 @@ def rent_index(request):
 	'test': 'just for test.',
         'welcome': 'hello world.'
     }
-    return render(request, 'rent_index.html', context)
+    return render(request, 'rent_index.html')
 
